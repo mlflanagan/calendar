@@ -1,0 +1,24 @@
+table {
+    margin: auto;           /* centers the table */
+    padding: 10px 10px;
+}
+
+th, td {
+    text-align: right;      /* right align dates */
+    padding: 0px 2px;       /* horizontal padding */
+}
+
+th.year, th.month {
+    text-align: center;     /* center year and month names */
+}
+
+th.year {                   /* increase the year font size */
+    font-size: x-large;
+}
+
+td {
+    vertical-align: top;    /* align tables to top of cells */
+}
+
+/* highlight today */
+td.currentday { background-color: orangered; }
